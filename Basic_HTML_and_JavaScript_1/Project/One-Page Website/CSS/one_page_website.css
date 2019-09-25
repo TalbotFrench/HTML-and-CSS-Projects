@@ -1,0 +1,11 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12; 
+}
+
+input{
+    width: 150px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 4px;
+}
