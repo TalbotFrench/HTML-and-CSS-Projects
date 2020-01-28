@@ -185,7 +185,7 @@
                                   </div>
                                   <div class="modal-body">
 
-                                      <form>
+                                      <form name="myForm" action="" onsubmit="return validateForm()" method="post">
                                           <div class="form-group">
                                             <label for="firstname">First Name:</label>
                                             <input type="text" class="form-control" id="firstname" placeholder="First Name...">
@@ -198,16 +198,27 @@
                                               <label for="email">Email:</label>
                                               <input type="text" class="form-control" id="email" placeholder="Email...">
                                             </div>
+                                            <div class="form-group">
+                                                <label for="phone">Phone:</label>
+                                                <input type="text" class="form-control" id="phone" placeholder="Phone number...">
+                                              </div>
+
+                                              
                                         </form>
-                                   
 
-
-
-
+                                                <script>
+                                                function validateForm() {
+                                                  var x = document.forms["myForm"]["phone"].value;
+                                                  if (x == ""){
+                                                    alert('You must input a Phone Number!');
+                                                    return false;
+                                                  }
+                                                }
+                                                </script>
                                   </div>
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-primary">Submit</button>
                                   </div>
                                 </div>
                               </div>

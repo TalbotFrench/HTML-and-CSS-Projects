@@ -28,14 +28,14 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
+    color: #00008b;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5)
 
 }
 
 h2 {
     line-height: 50px;
-    color: #E91C1C;
+    color: #00008b;
 }
 h3{
     line-height: 30px;
@@ -172,12 +172,13 @@ section{
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100, 65,0,.3);
+    background-color: rgba(78, 122, 241, 0.788);
+    
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 #contact {
-    background-color: #f5f3f3;
+    background-color: #f4f3f5;
 }
 
 .reservation {
@@ -185,7 +186,7 @@ section{
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,.3);
+    background-color:rgba(40, 17, 59, 0.664);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1) , 1px 2px 10px 0 rgba(0,0,0,0.5)
 }
 
@@ -226,7 +227,7 @@ section{
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227,222,222);
+    background: rgb(223, 222, 227);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway',sans-serif;
 }
